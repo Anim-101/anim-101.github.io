@@ -6,7 +6,7 @@ We are saying it doesn't control DOM to render UI. Still we are working with jav
 
 It feels like we can call it a **NodeJS** of mobile application development. Well, it too serves it's purpose in a simillar way. Before NativeScript different mobile application framewarks were available. For example ionic, xamarin etc etc. But none of those frameworks provided full native api support as NativeScript did. Following image is for refrence of this concept of accessing native api. It is taken from the actual version 7 of the documentaion.
 
-// NativeScript Common Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/nativeScriptCommon.png)
 
 So what happens that we download a template of a codebase or generates using commands (given in installation section) then framework binds the codebase altogether. Why the binding? because there are different type of frameworks which are being used. Till now, vanilla **JavaScript**, vanilla **TypeScript**, **AngularJS**, **ReactJS**, **Vue JS**, **Svelte** are available. Thus binding is required between **NativeScript Core Modules**, Plugins and selected JS Framework.
 

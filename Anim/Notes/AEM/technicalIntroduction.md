@@ -37,14 +37,14 @@ Through Publish environment users experience allowed features by authors. With t
 ## Content Publishing
 AEM provides content publishing on high level. When our business practitioner or author comes to author instance and authors digital assets for new digital experience they make changes. Once they have got the approval for the changes they make, the content will be published to adobe pipeline.
 
-// Content Publishing Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/TechnicalIntroduction/contentPublishing.jpg)
 
 Adobe pipeline plays the most important role in this ecosystem by taking content from author to publish instance. Now, If we have images, audios or vides as these are heavy contents then we don't want those content be going through a queue in pipeline. For those reason, we have Shared Binary Storage. So when a author uploads any of those heavy content then it gets uploaded to Shared Binary Storage. When it is published then it is available in sites. There is also CDN or Load Balancer in front of Publish intance. Which provides some load balancing related solutions with extra caching mechanisms.
 
 ## AEM Architecture Stack
 As AEM provides one of the most smartest CMS solution in the business, it also needed to come with some combination of smartest technologies.
 
-// AEM Architecture Stack Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/TechnicalIntroduction/aemArchitectureStack.jpg)
 
 So AEM combines Apache Felix (OSGI Java Container), Apache Jackrabbit OAK (JCR Repository / Storage Layer), Apache Sling (Web Application Framework) altogether.
 Including these frames together, AEM gets content repository, user interface, business process management, security, logging and topology management. With that AEM provides sites, assets and forms to develop digital experience.
@@ -61,7 +61,7 @@ Above mentioned software are open source. With those open source applications, A
 JCR is a database but more of a file system which supports both structured and unstructured files. It supports full-text search, indexing, access-control, event monitoring and many more of the powerful processes.
 It is a database where contents are saved in a hierarchical format. It was first introduced through Java Specification Request as refer as JSR in 2002. So JCR comes from JSR-170 (first proposed version of JCR). Since then JCR provides APIs for both Java and JavaScript programming language. And concept and principles are maintained by a stable group.And they are based on open standard.
 
-// Java Content Repository Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/TechnicalIntroduction/javaContentRepository.jpg)
 
 Thus there is another update which came through JSR-283 in 2005 and another came in 2010 through JSR-333 and continuing till now. Followings are the principles of JCR.
 - A common programmatic interface to content repositories
@@ -93,7 +93,7 @@ So on high level, JCR is a tree level structure. It has two type of items, which
 It is a framework for RESTful web-application based on an extensible content tree. AEM is built using Sling. And Sling is based on RESTful principle for easier content-oriented applications development. It uses JCR and CRX Content Repository from AEM as its data store.
 Sling is resource oriented. And resources are maintained in a virtual tree in AEM. Most of those resources are mapped to JCR nodes. So Sling decomposes the URL . Then resolves the resource to be rendered from path (JCR node or contents from CRX Content Repository). And then locales rendering scripts or servlet to process the resource.
 
-// Apache Sling URL Decomposition Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/TechnicalIntroduction/apacheSlingURLDecomposition.png)
 
 This image shows how sling decomposes an URL with a request. In first step, URL is decomposed through Sling. And then content resolution starts. Unlike JSP, Sling doesn't go and find the script first. Instead of it, Sling goes and find the content first in repository.
 So summarizing it, Sling takes the URL and goes to content repository to identify whether the path exits in repository or not. And if that path exits, the it will find a property called **Sling Resource Type**. A every content from the content repository must have this information. And this resource type is the identifier to Sling for what type of scripts or components that are required to run.
@@ -114,7 +114,7 @@ Bundles are independently developed and deployed because of the bundle deploymen
 -  Used to control the composite bundles of AEM and their configurations
 -  Enables applications to be created from smaller, reusable and collaborative components
 
-// OSGI Architecture Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/TechnicalIntroduction/osgiArchitecture.png)
 
 In architecture level, OSGI uses native operating sytem & JVM (Java Virtual Machine) in the very bottom. And on the side it has bundles. Which are OSGI components that are made by developers. Service layer connects with bundles in dynamic ways by offering publish bind model for plain old java object.
 Execution Environment defines what classes and methods are available in specific platforms. Modules define how a bundle should export or import a code. Life Cycle is an API to update, start, stop, install, uninstall a bundle. And the Security is the layer, which handles security aspects.
@@ -128,7 +128,7 @@ But it is also used as Load Balancing tool. When a system has multiple published
 -  Environment is fast and dynamic
 -  Is a web server plug-in available for Apache and Internet Information Server (IIS)
 
-// Dispatcher Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/TechnicalIntroduction/Dispatcher.jpg)
 
 This is dispatcher's module architecture. Following are the features of dispatcher's load balancing.
 

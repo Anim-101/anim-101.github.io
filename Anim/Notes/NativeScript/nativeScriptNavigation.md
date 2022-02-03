@@ -11,11 +11,11 @@ Now we need to focus on how we can implement those navigation in a NativeScript 
 ## Forward Navigation
 Following image is attached from v7 documentation for better visualization. As forward navigation is navigating through screens which are in next level from hierarchy, it can be called downward navigation too.
 
-// Forward Navigation Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/NativeScriptNavigations/forwardNavigation.png)
 
 In NativeScript, there are two components to enable implementing forward navigation. One is **Frame** and another one is **Page**. A **Frame** represents as a navigation controller that navigates through **Page** instances.
 
-// Forward Navigation Diagram Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/NativeScriptNavigations/forwardNavigationDiagram.png)
 
 ### Page
 Page is a screen which user can navigate through. It is basic component of NativeScript. It holds single UI component of a screen and at the same time it provides navigation life cycle events.
@@ -99,7 +99,7 @@ Frame holds importannce of NativeScript framework's UI transition. v7 documentat
 ## Backward Navigation
 Navigating pages backwardly, which also can be described as upward navigation. Since we are going up to our navigation hierarchy. It is opposite of forward navigation and fully supported by Frame API. To go back to previous page, Frame calls **goBack()** method.
 
-// Backward Navigation Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/NativeScriptNavigations/backwardNavigation.png)
 
 Follwing is the code example from v7 documentation of backward navigation of a page called item-page.
 
@@ -128,14 +128,14 @@ export function onTap(args: EventData) {
 ## Lateral Navigation
 Lateral Navigation means to go through difference instances of the Frame components and provide interface to the user to switc between those components. These are usually enabled through specific navigation components. Which includes **BottomNavigation**, **Tabs**, **TabView**, **SideDrawer**, **ModalView** and **Frame** which provide an unique mobile navigation patterns.
 
-// Lateral Navigation Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/NativeScriptNavigations/lateralNavigation.png)
 
 There are few ways/patterns to navigate as lateral navigation. Bellow as an explanation and understanding from v7 documentation to go through those patterns.
 
 ### Hub Navigation
 Hub Navigation is more of like a forwad navigation of lateral navigation. It consist of a screen called a hub that holds navigation buttons leading to different features. In NativeScript we can implement it with a Frame and having a page to serve as hub screen.
 
-// Hub Navigation Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/NativeScriptNavigations/hubNavigation.png)
 
 Following is the code from v7 documentation which shows implementation of hub navigation.
 
@@ -171,7 +171,7 @@ export function navigateToSearch(args: EventData) {
 ### Bottom Navigation & Tabs Navigation
 Bottom Navigation & Tabs Navigation allows us to arbitrarily navigate between several UI containers at the same level of hierarchy. An important feature of this components are that they keep state of the containers that are not visible. Which means when an user comes back to previous tab, data and scroll position of navigation state remain as it was when user left the page.
 
-// Tab View Navigation Image
+![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/NativeScript/NativeScriptNavigations/tabViewNavigation.png)
 
 ## Conclusion
 Navigation is one of the main block of application. Without navigation options user interaction would feel invalid. As a framework, NativeScript provides important navigation features to developer so that we can our desired application. This note is based on learning of official documentation. Please follow the reference to learn more concretely.
