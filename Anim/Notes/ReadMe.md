@@ -1,0 +1,2 @@
+# Notes
+Now what are notes? This question may rise. As it seems that I have written these but what are the value notes consist? Well, going through documentations or tutorials we need a summarized composition to read what we have found through our R&D sessions. This is my sessions' notes which I have taken while going through documentations or tutorials. 
