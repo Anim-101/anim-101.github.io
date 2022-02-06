@@ -1,4 +1,4 @@
-# AEM Basic Authoring Capabilities
+# AEM Basic Authoring Capabilities Part: 1
 
 In previous section we have learned some technological aspect of AEM. Now it's time to get some hands on experience.
 
@@ -52,3 +52,17 @@ Following image shows creation process of AEM Tagging. First we need to go to to
 ![](https://raw.githubusercontent.com/Anim-101/anim-101.github.io/master/srv/images/Notes/AEM/AuthoringCapabilities/createTagging.png)
 
 A tagging component will open. We add tagging options. Let's say our lagging's name is **biking**. We provide the name of it and also add description if needed in the component. Then our first tag as **biking** under **Adventures** name space is created
+
+## AEM DAM (Digital Assets Management)
+DAM stands for digital assets. Now what is digital assets? It is nothing but digital documents, images, videos, files, pdf etc etc. Also these assets can have multiple renditions. Renditions can be for thumbnails, phones, ipads or other available interactive devices. In AEM, assets can be added and directly interact from adobe creative cloud.
+
+So generally assets are binary format of files of different formats. But we also can add metadata to those binary files. As we have discussed about AEM Tagging in previous section, it is point to be added that using binary metadata custom tagging manager can retrieve similar assets based on same tags.
+
+DAM can be usable in different places through AEM. It can be used in marketing cloud. Using Adobe Target, specialists can optimize and create personalized experienced for users. They can retrieve assets for their specialized solutions from marketing cloud. And it is possible because of connecting DAM with marketing cloud.
+
+Also using sensei technology DAM's assets can be smartly cropped. It is important for smart renditons. Using smart cropping, assets can be used in ipads, web sites, phones at the same time. Same can be done with tagging too. Using sensei technology smart tags can be used for tagging assets more dynamic ways.
+
+Now to upload assets in AEM, we can upload assets using AEM UI and and upload those assets. But what if we need to upload a batch files with large size. Which can be time consuming. For this, Adobe has provided **WebDAV** to access AEM assets in a smart way.
+
+## Conclusion
+Authoring capabilities are main topic of AEM. Writing about authoring capabilities in one note can not be finished. It will be better if we store information as sections. In this section, we have learned very basic authoring capabilities. In next section we are going to be learning templates and many more authoring capabilities.
