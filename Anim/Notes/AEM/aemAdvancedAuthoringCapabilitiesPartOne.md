@@ -1,4 +1,4 @@
-# AEM Advanced Authoring
+# AEM Advanced Authoring Capabilities Part: 1
 In previous sections we learned about some of the very basic authoring capabilities which are available in **Adobe Experience Manager**. As we have leveled up we need to progress through our learning and continue with some of the advanced available topics.
 
 ## Experience Fragment
