@@ -1,2 +1,2 @@
 # images
-images **srv**. It is a image file server for contents.
+images **srv**. It is an image file server for contents.

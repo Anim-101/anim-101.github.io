@@ -1,2 +1,2 @@
-# Notes
-Image srv for notes.
+# images
+An Image File Server as **srv** for notes.
