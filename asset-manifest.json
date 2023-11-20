@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/anim-101.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/anim-101.github.io/static/js/main.ff570aca.js",
+    "static/js/787.6820d840.chunk.js": "/anim-101.github.io/static/js/787.6820d840.chunk.js",
+    "static/media/logo.svg": "/anim-101.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/anim-101.github.io/index.html",
+    "main.f855e6bc.css.map": "/anim-101.github.io/static/css/main.f855e6bc.css.map",
+    "main.ff570aca.js.map": "/anim-101.github.io/static/js/main.ff570aca.js.map",
+    "787.6820d840.chunk.js.map": "/anim-101.github.io/static/js/787.6820d840.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ff570aca.js"
+  ]
+}
