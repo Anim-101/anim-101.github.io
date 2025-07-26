@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anim-101.github.io/static/css/main.dba0c78d.css",
-    "main.js": "/anim-101.github.io/static/js/main.82900c2a.js",
-    "static/js/453.c04485a2.chunk.js": "/anim-101.github.io/static/js/453.c04485a2.chunk.js",
-    "index.html": "/anim-101.github.io/index.html",
-    "main.dba0c78d.css.map": "/anim-101.github.io/static/css/main.dba0c78d.css.map",
-    "main.82900c2a.js.map": "/anim-101.github.io/static/js/main.82900c2a.js.map",
-    "453.c04485a2.chunk.js.map": "/anim-101.github.io/static/js/453.c04485a2.chunk.js.map"
+    "main.css": "/static/css/main.dba0c78d.css",
+    "main.js": "/static/js/main.44a6172d.js",
+    "static/js/453.c04485a2.chunk.js": "/static/js/453.c04485a2.chunk.js",
+    "index.html": "/index.html",
+    "main.dba0c78d.css.map": "/static/css/main.dba0c78d.css.map",
+    "main.44a6172d.js.map": "/static/js/main.44a6172d.js.map",
+    "453.c04485a2.chunk.js.map": "/static/js/453.c04485a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba0c78d.css",
-    "static/js/main.82900c2a.js"
+    "static/js/main.44a6172d.js"
   ]
 }

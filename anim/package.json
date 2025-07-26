@@ -2,7 +2,7 @@
   "name": "anim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anim-101.github.io/anim-101.github.io",
+  "homepage": "https://Anim-101.github.io",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
