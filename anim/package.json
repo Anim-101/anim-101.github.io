@@ -2,7 +2,7 @@
   "name": "anim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anim-101.github.io/anim",
+  "homepage": "https://Anim-101.github.io/anim-101.github.io",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && xcopy build\\* ..\\ /E /H /C /I /Y && cd .. && git add . && git commit -m \"Deploy\" && git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
