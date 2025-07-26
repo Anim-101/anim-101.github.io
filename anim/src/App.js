@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const Home = () => (
   <section className="p-8 text-center">
@@ -32,25 +33,18 @@ const Contact = () => (
   </section>
 );
 
-const Navbar = () => (
-  <nav className="bg-gray-800 text-white p-4 flex gap-4">
-    <Link to="/" className="hover:text-gray-300">Home</Link>
-    <Link to="/about" className="hover:text-gray-300">About</Link>
-    <Link to="/projects" className="hover:text-gray-300">Projects</Link>
-    <Link to="/contact" className="hover:text-gray-300">Contact</Link>
-  </nav>
-);
-
 export default function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen transition-colors duration-300">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
