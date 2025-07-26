@@ -43,7 +43,7 @@ const Navbar = () => (
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/anim">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
