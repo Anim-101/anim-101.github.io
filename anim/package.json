@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "npm run build && xcopy build\\* ..\\ /E /H /C /I /Y && cd .. && git add . && git commit -m \"Deploy\" && git push",
+    "deploy": "npm run build && xcopy build\\* ..\\docs /s /e /y",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
