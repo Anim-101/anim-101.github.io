@@ -19,11 +19,12 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800 dark:bg-gray-900 text-white p-4 flex items-center justify-between">
-      <div className="flex gap-4">
+      <div className="flex gap-5">
         <Link to="/" className="hover:text-gray-300">Home</Link>
         <Link to="/about" className="hover:text-gray-300">About</Link>
         <Link to="/projects" className="hover:text-gray-300">Projects</Link>
         <Link to="/contact" className="hover:text-gray-300">Contact</Link>
+        <Link to="/profile" className="hover:text-gray-300">Profile</Link>
       </div>
       <button
         onClick={() => setDarkMode(!darkMode)}
