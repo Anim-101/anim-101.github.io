@@ -4,7 +4,7 @@ import React from "react";
 const Profile = () => (
    <section className="flex flex-col items-center text-center py-12 px-4 bg-gray-100 dark:bg-gray-900 transition-colors">
       <img
-        src="img/anim.jpg" // Replace with your image path
+        src="img/anim.jpg"
         alt="Profile"
         className="w-32 h-32 rounded-full border-4 border-gray-300 dark:border-gray-700 mb-4"
       />
