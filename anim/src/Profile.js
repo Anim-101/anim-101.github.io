@@ -15,10 +15,10 @@ const Profile = () => (
         <a href="https://github.com/Anim-101" target="_blank" rel="noreferrer" className="text-gray-800 dark:text-white hover:text-blue-500 text-2xl">
           📱
         </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" className="text-gray-800 dark:text-white hover:text-blue-500 text-2xl">
+        <a href="https://www.linkedin.com/in/anim-101" target="_blank" rel="noreferrer" className="text-gray-800 dark:text-white hover:text-blue-500 text-2xl">
           💼
         </a>
-        <a href="mailto:your.email@example.com" className="text-gray-800 dark:text-white hover:text-blue-500 text-2xl">
+        <a href="mailto:anmaksh@gmail.com.com" className="text-gray-800 dark:text-white hover:text-blue-500 text-2xl">
           ✉️
         </a>
       </div>
