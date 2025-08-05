@@ -25,6 +25,7 @@ const Navbar = () => {
         <Link to="/projects" className="hover:text-gray-300">Projects</Link>
         <Link to="/contact" className="hover:text-gray-300">Contact</Link>
         <Link to="/profile" className="hover:text-gray-300">Profile</Link>
+        <Link to="/blog" className="hover:text-gray-300">Blog</Link> {/* 🆕 */}
       </div>
       <button
         onClick={() => setDarkMode(!darkMode)}
