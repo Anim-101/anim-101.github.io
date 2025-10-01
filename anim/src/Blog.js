@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const Blog = () => {
   const posts = [
     {
-      title: "React + Spring Boot",
+      title: "blog1",
       description: "Learn how to integrate React with Spring Boot.",
-      slug: "react-spring-boot"
+      slug: "blog1"
     },
     {
-      title: "Deploy Portfolio to GitHub Pages",
+      title: "blog2",
       description: "A step-by-step guide to deploying your portfolio.",
-      slug: "deploy-portfolio"
+      slug: "blog2"
     }
   ];
 

@@ -10,7 +10,7 @@ export default function BlogPost() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/blogs/${slug}.md`)
+    fetch(`${process.env.PUBLIC_URL}/blog/${slug}.md`)
       .then((res) => {
         if (!res.ok) throw new Error("File not found");
         return res.text();
